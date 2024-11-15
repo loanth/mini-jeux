@@ -3,7 +3,7 @@
 
 // Paramètres de connexion à la base de données
 $host = 'sql100.infinityfree.com';
-$db = 'if0_37442174_game_scores';
+$db = 'if0_37442174_games_scores';
 $user = 'if0_37442174';
 $password = '1ptwN82FYxkuXp';
 
