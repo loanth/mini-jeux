@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Chelsea+Market&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Chelsea Market", system-ui;
+  font-size: 34px;
+}
+
+.wrapper,
+.content {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.intro {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  z-index: 2;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ff0000;
+/*   margin: 0 auto; */
+}
+
+.intro h1 {
+  font-size: 40px;
+  font-family: "Beth Ellen", cursive;
+}
+.intro p  {
+    font-size: 60px;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: bolder;
+}
+
+.content {
+  overflow-x: hidden;
+}
+
+.content .section {
+  width: 100%;
+  height: 100vh;
+}
+.gradient-purple, gradient-blue {
+  height: 50vh;
+}
+.content .section.hero {
+  background-image: url(eau.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: opacity 0.5s ease;
+}
+
+
+.image-container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  perspective: 500px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  position: relative;
+  z-index: 1;
+}
+
+
+.test {
+  position: relative;
+  color: white;
+  top: -30px;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 0 auto;
+  text-align: center;
+  
+  color: #ff9605c4;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 25px;
+  width: 50%;
+  opacity: 0.4;
+}
+  
+.div4 {
+  
+  grid-column-start: 2;
+  grid-row-start: 2;
+  width: auto;
+  height: 200px;
+  background: linear-gradient(135deg, #226D68 0%, #18534F 100%);
+  color: #ECF8F6; /* Texte en couleur claire pour un bon contraste */
+  border-radius: 15px; /* Coins arrondis */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: bolder;
+}
+
+.div5 {
+  
+  grid-column-start: 3;
+  grid-row-start: 2;
+  height: 200px;
+  background: linear-gradient(135deg, #226D68 0%, #18534F 100%);
+  color: #ECF8F6; /* Texte en couleur claire pour un bon contraste */
+  border-radius: 15px; /* Coins arrondis */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: bolder;
+}
+
+.div6 {
+  grid-column-start: 4;
+  grid-row-start: 2;
+  height: 200px;
+  background: linear-gradient(135deg, #226D68 0%, #18534F 100%);
+  color: #ECF8F6; /* Texte en couleur claire pour un bon contraste */
+  border-radius: 15px; /* Coins arrondis */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: bolder;
+}
+
+.div7 {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  height: 200px;
+  background: linear-gradient(135deg, #226D68 0%, #18534F 100%);
+  color: #ECF8F6; /* Texte en couleur claire pour un bon contraste */
+  border-radius: 15px; /* Coins arrondis */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: bolder;
+}
+
+.div8 {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  height: 200px;
+  background: linear-gradient(135deg, #226D68 0%, #18534F 100%);
+  color: #ECF8F6; /* Texte en couleur claire pour un bon contraste */
+  border-radius: 15px; /* Coins arrondis */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: bolder;
+}
+
+.div9 {
+  grid-column-start: 4;
+  grid-row-start: 3;
+  height: 200px;
+  background: linear-gradient(135deg, #226D68 0%, #18534F 100%);
+  color: #ECF8F6; /* Texte en couleur claire pour un bon contraste */
+  border-radius: 15px; /* Coins arrondis */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: bolder;
+}
+
+.div10 {
+  grid-column-start: 2;
+  grid-row-start: 4;
+  height: 200px;
+  background: linear-gradient(135deg, #226D68 0%, #18534F 100%);
+  color: #ECF8F6; /* Texte en couleur claire pour un bon contraste */
+  border-radius: 15px; /* Coins arrondis */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: bolder;
+}
+
+.div11 {
+  grid-column-start: 3;
+  grid-row-start: 4;
+  height: 200px;
+  background: linear-gradient(135deg, #226D68 0%, #18534F 100%);
+  color: #ECF8F6; /* Texte en couleur claire pour un bon contraste */
+  border-radius: 15px; /* Coins arrondis */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: bolder;
+}
+
+.div12 {
+  grid-column-start: 4;
+  grid-row-start: 4;
+  height: 200px;
+  background: linear-gradient(135deg, #226D68 0%, #18534F 100%);
+  color: #ECF8F6; /* Texte en couleur claire pour un bon contraste */
+  border-radius: 15px; /* Coins arrondis */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: bolder;
+    
+}
+
+a {
+  text-decoration: none;  /* Optionnel : enlève le soulignement */
+  color: #333;            /* Optionnel : change la couleur du texte */
+  font-size: 20px;        /* Optionnel : change la taille de la police */
+}

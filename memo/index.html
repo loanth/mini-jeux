@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jigsaw Puzzle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div id="particle-background">
+
+    <div class="navbar">
+      <div class="toggle-button">
+        <i class="fas fa-bars"></i>
+      </div>
+      <a href="../index.html" style="text-decoration:none">
+      <div class="nav-item" data-tooltip="Home">
+        <i class="fas fa-home"></i>
+      </div></a>
+      <a href="../puzzle/index.html" style="text-decoration:none"><div class="nav-item" data-tooltip="Puzzle">
+        <i class="fas fa-puzzle-piece"></i>
+      </div></a>
+      <a href="../tir-spatial/index.html" style="text-decoration:none">
+      <div class="nav-item" data-tooltip="Spatial">
+        <i class="fas fa-rocket"></i>
+        <!-- Notification Badge -->
+      </div></a>
+      <a href="./index.html" style="text-decoration:none">
+      <div class="nav-item active" data-tooltip="Mémorie">
+        <i class="fas fa-brain"></i>
+      </div>
+    </a>
+      <div class="nav-item" data-tooltip="Profile">
+        <i class="fas fa-user"></i>
+      </div>
+      <!-- Selection Indicator -->
+      <div class="selection-indicator"></div>
+    </div>
+</div>
+<br><br><br><br><br><br>
+    <!-- Contenu principal -->
+    
+    <div class="container">
+      <h1>Memory Game</h1>
+      <div class="timer">Temps : <span id="timer">00:00</span></div>
+      <div class="memory-game">
+          <!-- Les cartes seront générées dynamiquement ici -->
+      </div>
+      <button id="replay-button" style="display: none;">Rejouer</button>
+      <div id="scoreSection">
+        <h2>Meilleurs Scores</h2>
+        <ul id="scoreList"></ul>
+      </div>
+    
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>

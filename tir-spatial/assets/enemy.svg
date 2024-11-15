@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Corps principal de l'ennemi -->
+  <circle cx="50" cy="50" r="40" fill="#226D68" stroke="#D6955B" stroke-width="4"/>
+  <!-- Cockpit de l'ennemi -->
+  <ellipse cx="50" cy="35" rx="25" ry="12" fill="#FEEAA1" stroke="#D6955B" stroke-width="3"/>
+  <!-- Ailes de l'ennemi, plus larges -->
+  <polygon points="10,50 50,85 90,50 50,65" fill="#D6955B" />
+  <!-- Canon central, plus épais -->
+  <rect x="46" y="60" width="8" height="25" fill="#FEEAA1"/>
+  <!-- Ligne horizontale pour plus de détails -->
+  <line x1="15" y1="75" x2="85" y2="75" stroke="#FEEAA1" stroke-width="4"/>
+</svg>
