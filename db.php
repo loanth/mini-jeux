@@ -2,10 +2,10 @@
 // db.php
 
 // Paramètres de connexion à la base de données
-$host = 'localhost';
+$host = 'ftpupload.net';
 $db = 'game_scores';
-$user = 'root';
-$password = '';
+$user = 'if0_37442174';
+$password = '1ptwN82FYxkuXp ';
 
 try {
     // Connexion à la base de données avec PDO
