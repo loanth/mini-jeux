@@ -2,10 +2,10 @@
 // db.php
 
 // Paramètres de connexion à la base de données
-$host = 'ftpupload.net';
-$db = 'game_scores';
+$host = 'sql100.infinityfree.com';
+$db = 'if0_37442174_game_scores';
 $user = 'if0_37442174';
-$password = '1ptwN82FYxkuXp ';
+$password = '1ptwN82FYxkuXp';
 
 try {
     // Connexion à la base de données avec PDO
